@@ -10,7 +10,7 @@ app.set('view engine', 'ejs');
 // when using view, no need for .html, we can use .ejs
 
 // listen for requests
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
 
 // middle ware and static files
 // MIDDLEWARE WITH MORGAN
